@@ -1,8 +1,8 @@
 # keuangan Jajag 3
 
-**Keuangan Jajag 3** adalah aplikasi dasbor administrasi keuangan modern yang dirancang untuk memudahkan pencatatan, pengelolaan, dan analisis data keuangan secara real-time. Aplikasi ini mengintegrasikan kecerdasan buatan (AI) untuk membantu pembuatan data simulasi dan visualisasi yang interaktif.
+**Keuangan Jajag 3** adalah aplikasi dasborard administrasi keuangan modern yang dirancang untuk memudahkan pencatatan, pengelolaan, dan analisis data keuangan secara real-time. Aplikasi ini mengintegrasikan kecerdasan buatan (AI) untuk membantu pembuatan data simulasi dan visualisasi yang interaktif.
 
-## ðŸš€ Fitur Utama
+## Fitur Utama
 
 - **Pencatatan Keuangan Real-time**: Tambah pemasukan dan pengeluaran dengan sinkronisasi langsung ke database cloud (Supabase).
 - **Generator Data AI**: Gunakan kekuatan Google Gemini AI untuk membuat data dummy atau simulasi skenario keuangan secara otomatis hanya dengan deskripsi teks bahasa Indonesia.
