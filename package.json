@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jajag3.my.id",
+  "homepage": "https://jajag3.my.id/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
