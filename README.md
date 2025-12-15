@@ -1,20 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# keuangan Jajag 3
 
-# Run and deploy your AI Studio app
+**Keuangan Jajag 3** adalah aplikasi dasbor administrasi keuangan modern yang dirancang untuk memudahkan pencatatan, pengelolaan, dan analisis data keuangan secara real-time. Aplikasi ini mengintegrasikan kecerdasan buatan (AI) untuk membantu pembuatan data simulasi dan visualisasi yang interaktif.
 
-This contains everything you need to run your app locally.
+## ðŸš€ Fitur Utama
 
-View your app in AI Studio: https://ai.studio/apps/drive/1FPGZNaamV8UI0V1cSkneZbu7XKnd39pF
+- **Pencatatan Keuangan Real-time**: Tambah pemasukan dan pengeluaran dengan sinkronisasi langsung ke database cloud (Supabase).
+- **Generator Data AI**: Gunakan kekuatan Google Gemini AI untuk membuat data dummy atau simulasi skenario keuangan secara otomatis hanya dengan deskripsi teks bahasa Indonesia.
+- **Visualisasi Data Interaktif**: Grafik batang dinamis untuk melihat distribusi keuangan dan statistik ringkasan (Saldo Bersih, Rata-rata, Nilai Tertinggi).
+- **Manajemen Data Lengkap**: 
+  - Filter berdasarkan kategori (Umum, Keuangan, Inventaris, Penjualan).
+  - Pencarian data instan.
+  - Hapus data per item atau massal.
+- **Ekspor Laporan**: Unduh data keuangan yang difilter ke dalam format CSV untuk analisis lebih lanjut di Excel atau Spreadsheet.
+- **Format Rupiah Otomatis**: Semua nilai mata uang diformat secara otomatis ke dalam Rupiah (IDR).
+- **Desain Responsif**: Tampilan antarmuka yang bersih dan responsif, cocok untuk desktop maupun perangkat seluler.
 
-## Run Locally
+## ðŸ› ï¸ Teknologi yang Digunakan
 
-**Prerequisites:**  Node.js
+Aplikasi ini dibangun menggunakan teknologi web modern:
 
+- **Frontend**: React 19, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **Database & Real-time**: Supabase
+- **Artificial Intelligence**: Google Gemini API (`@google/genai`)
+- **Icons**: Lucide React
+- **Charting**: Recharts
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ðŸ“¦ Cara Menjalankan
+
+1. **Clone repositori ini**
+   ```bash
+   git clone https://github.com/username/adminsum-pro.git
+   cd adminsum-pro
+   ```
+
+2. **Instal dependensi**
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan server pengembangan**
+   ```bash
+   npm run dev
+   ```
+
+## ðŸ“ Catatan Penggunaan
+
+- **API Key**: Aplikasi ini menggunakan API Key untuk layanan Supabase dan Google Gemini. Pastikan konfigurasi di `services/supabase.ts` dan `services/geminiService.ts` sudah sesuai jika Anda ingin menggunakan kredensial Anda sendiri.
+- **AI Prompt**: Fitur "Isi Otomatis AI" dioptimalkan untuk menerima perintah dalam Bahasa Indonesia (contoh: "Daftar belanja bulanan", "Gaji karyawan IT").
+
+## ðŸ“„ Lisensi
